@@ -5,11 +5,16 @@
 {% endblock %}
 
 {% block body %}
+    
     <h1>Create a new page</h1>
     <br>
     <form action="{% url 'create' %}" method="POST">
         {% csrf_token %}
         <input type="text" name="title" placeholder="Title">
+        <br><br>
+        <textarea id="mdcontent" name="mdcontent" rows="2" cols="20" placeholder="Enter article content in Markdown format"></textarea>
+        <br>
+        <button type="submit" value="Save">Save</button>
     </form>
 
 {% endblock %}
