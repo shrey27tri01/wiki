@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {% if entry is None %}
+        No Entry
+    {% else %}
+        {{ title }}
+    {% endif %}
+{% endblock %}
+
+{% block body %}
+    {% if entry is None %}
+        No such entry
+    {% else %}
+        {{entry | safe}}
+    {% endif %}
+{% endblock %}
