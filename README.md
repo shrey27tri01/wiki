@@ -9,6 +9,6 @@ To run the application locally:
 - `pip install -r requirements.txt`
 - `python(3) manage.py runserver`
 
-A live demo of the project can be found [here](https://www.youtube.com/watch?v=ehQz05Rvp7o&t=12s)!
+A demo video of the working project can be found [here](https://www.youtube.com/watch?v=ehQz05Rvp7o&t=12s)!
 
 The live website has been deployed [here](https://wiki-django.herokuapp.com/)!
